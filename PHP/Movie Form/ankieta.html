@@ -1,0 +1,31 @@
+        <!DOCTYPE HTML>
+        <html lang = "pl">
+        <head>
+        <meta charset = "utf-8"/>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+    <header>
+        <h1>Jakie Filmy lubisz oglądać?</h1>
+    </header>
+        <main>
+         
+             <form method="post" name="myform" action="wybor.php">
+               
+                 <label>Czy lubisz stare filmy?</label>
+                   <select name="oldmovies" id="oldmovies">
+                 <option value="yes">Lubię</option>
+                <option value="no">Nie lubię</option>
+                <option value="idk">Nie wiem / wiek filmu jest mi obojętny</option> 
+                 </select>
+                 <h3>Twój ulubiony gatunek?</h3>
+                 <select name="gatunek" id="gatunek">
+                 <option value="dramat">Dramat</option>
+                <option value="komedia">Komedia</option>
+                <option value="akcja">Akcja</option> 
+                 </select>
+                <input type="submit" id="przeslij" name="przeslij" value="Prześlij"/>
+            </form>
+            </main>
+            </body>
+</html>
